@@ -60,7 +60,7 @@ function StreakMap() {
           {week.map((day, dIdx) => (
             <div key={dIdx} className="flex flex-col items-center">
               <div
-                className={`w-6 h-6 rounded-sm ${colorMap[day.value]} transition-colors`}
+                className={`w-6 h-6 ${colorMap[day.value]} transition-colors`}
               ></div>
               {wIdx === monthData.length - 1 && (
                 <span className="text-[10px] font-semibold text-white-700 mt-1">{day.day}</span>
