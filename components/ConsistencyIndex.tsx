@@ -30,7 +30,7 @@ function ConsistencyIndex() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-full p-4 bg-zinc-900 rounded-xl shadow-md">
-      <h2 className="font-bold text-gray-400 text-lg tracking-wide mb-2">
+      <h2 className="font-extrabold text-gray-400 text-lg tracking-wide mb-2">
         Consistency Index
       </h2>
 

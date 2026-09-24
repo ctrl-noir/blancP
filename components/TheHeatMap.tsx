@@ -20,10 +20,10 @@ function TheHeatMap() {
 
   return (
     <div className="flex flex-col h-full w-full p-4">
-      <h2 className="font-extrabold text-gray-300 text-lg tracking-wide mb-2">
+      <h2 className="font-extrabold text-gray-300 text-lg tracking-wide">
         Consistency Heat Map
       </h2>
-      <p className="text-xs text-gray-500 mb-4">
+      <p className="text-xs text-gray-500 mb-5">
         Each square represents a day of the year. Darker reds indicate more habits logged, 
         lighter shades show fewer or no habits.
       </p>

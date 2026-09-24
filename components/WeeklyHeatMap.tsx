@@ -46,10 +46,10 @@ const monthData: WeekData[] = [
 ];
 
 const colorMap: Record<number, string> = {
-  0: "bg-zinc-700",   // missed
-  1: "bg-yellow-600", // partial
-  2: "bg-green-600",  // good
-  3: "bg-green-800",  // excellent
+  0: "bg-zinc-700",   
+  1: "bg-yellow-600", 
+  2: "bg-green-600", 
+  3: "bg-green-800",  
 };
 
 function StreakMap() {

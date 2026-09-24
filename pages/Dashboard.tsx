@@ -19,7 +19,7 @@ function DashboardPage() {
             </div>
         </div>
         <div className="mt-5">
-            <div className="flex flex-row p-2 gap-2">
+            <div className="flex flex-row p-4 gap-2">
                 <div className="flex-row w-1/4 h-55 p-4 rounded-xl bg-zinc-900 shadow-md hover:shadow-lg transition-shadow">
                     <div className="flex">
                         <div className="flex flex-col gap-0">
@@ -62,7 +62,7 @@ function DashboardPage() {
                 </div>
             </div>
         </div>
-        <div className="flex-row w-auto h-80 pl-4 pr-4 rounded-xl bg-zinc-900 shadow-md hover:shadow-lg transition-shadow">
+        <div className="flex-row w-auto h-80 ml-4 mr-4 rounded-xl bg-zinc-900 shadow-md hover:shadow-lg transition-shadow">
             <TheHeatMap />
         </div>
     </>

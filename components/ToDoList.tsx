@@ -21,7 +21,7 @@ function TodoList() {
 
   return (
 <>
-    <h2 className="font-bold text-gray-400 text-lg border-zinc-700">
+    <h2 className="font-extrabold text-gray-400 text-lg border-zinc-700">
     To‑Do List
     </h2>
     <p className="font-semibold text-xs text-gray-500">task that need to be done.</p>
