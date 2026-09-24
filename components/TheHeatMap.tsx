@@ -20,7 +20,7 @@ function TheHeatMap() {
 
   return (
     <div className="flex flex-col h-full w-full p-4">
-      <h2 className="font-bold text-gray-300 text-lg tracking-wide mb-2">
+      <h2 className="font-extrabold text-gray-300 text-lg tracking-wide mb-2">
         Consistency Heat Map
       </h2>
       <p className="text-xs text-gray-500 mb-4">
