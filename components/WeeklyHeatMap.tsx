@@ -54,16 +54,16 @@ const colorMap: Record<number, string> = {
 
 function StreakMap() {
   return (
-    <div className="mt-4 flex flex-col gap-2">
+    <div className="mt-3 flex flex-col gap-2">
       {monthData.map((week, wIdx) => (
-        <div key={wIdx} className="flex justify-between">
+        <div key={wIdx} className="flex justify-start gap-x-2">
           {week.map((day, dIdx) => (
             <div key={dIdx} className="flex flex-col items-center">
               <div
                 className={`w-6 h-6 rounded-sm ${colorMap[day.value]} transition-colors`}
               ></div>
               {wIdx === monthData.length - 1 && (
-                <span className="text-[10px] text-gray-500 mt-1">{day.day}</span>
+                <span className="text-[10px] font-semibold text-white-700 mt-1">{day.day}</span>
               )}
             </div>
           ))}
