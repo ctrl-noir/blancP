@@ -15,7 +15,7 @@ function DashboardPage() {
                 Welcome to blancP, aka blanc's playground. On this platform you will
                 be tracking blanc's progress in real time... you are blanc
                 </p>
-                <FolderOpen className="font-bold ml-auto mr-5 mt-15 w-8 h-8" />
+                <FolderOpen className="font-bold ml-auto mr-20 mt-20 w-8 h-8" />
             </div>
         </div>
         <div className="mt-5">

@@ -31,19 +31,18 @@ function TodoList() {
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
             placeholder="Add a new task..."
-            className="flex-1 px-3 py-2 rounded-md bg-zinc-800 text-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-1 px-3 py-2 rounded-md bg-black text-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button onClick={addTodo}>
             <Plus className=" ml-auto w-auto h-7 mr-3 bg-green-700 rounded-md" strokeWidth={3} size={16} /> 
         </button>
     </div>
 
-    {/* List of todos */}
     <ul className="mt-4 flex flex-col gap-2">
     {todos.map((todo, idx) => (
         <li
         key={idx}
-        className="flex items-center justify-between bg-zinc-700 rounded-md px-3 py-2 text-gray-200 text-sm shadow-sm"
+        className="flex items-center justify-between bg-zinc-800 rounded-md px-3 py-2 text-gray-200 text-sm shadow-sm"
         >
         <div className="flex items-center gap-2">
             <CheckCircle className="text-white-500" size={16} />
