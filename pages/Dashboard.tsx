@@ -1,16 +1,16 @@
 import { FolderOpen, Plus } from "lucide-react";
 import StreakMap from "../components/WeeklyHeatMap";
 import TrajectoryWidget from "../components/Trajectory";
-import UpcomingGoals from "../components/UpcomingGoals";
 import TheHeatMap from "../components/TheHeatMap";
 import ConsistencyIndex from "../components/ConsistencyIndex";
+import ToDoList from "../components/ToDoList";
 
 function DashboardPage() {
   return (
     <>
         <div className="dashboard text-center">
             <div className="flex items-start">
-                <h1 className="pl-6 font-extrabold mt-8 text-8xl text-left">blancP .-   -...   ---</h1>
+                <h1 className="pl-6 font-extrabold mt-8 text-8xl text-left">blancP <span className="text-red-800">.-</span><span className="text-red-800">   -...</span><span className="text-purple-800">   ---</span></h1>
                 <p className="pl-6 font-semibold text-gray-300 text-xs text-left max-w-md mt-23">
                 Welcome to blancP, aka blanc's playground. On this platform you will
                 be tracking blanc's progress in real time... you are blanc
@@ -55,7 +55,7 @@ function DashboardPage() {
                     <TrajectoryWidget />
                 </div>
                 <div className="flex-row w-1/4 h-55 p-4 rounded-xl bg-zinc-900 shadow-md hover:shadow-lg transition-shadow">
-                    < UpcomingGoals />
+                    < ToDoList />
                 </div>
                 <div className="flex-row w-1/4 h-55 p-4 rounded-xl bg-zinc-900 shadow-md hover:shadow-lg transition-shadow">
                    <ConsistencyIndex />
