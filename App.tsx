@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/notes" element={<NoteApp />} />
-          <Route path="/database" element={< HabitPage />} />
+          <Route path="/HabitPage" element={< HabitPage />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
         <NavBar />

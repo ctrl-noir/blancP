@@ -4,7 +4,7 @@ import { Home, Settings, Database, Text } from "lucide-react";
 function NavBar() {
   const navItems = [
     { to: "/", icon: <Home size={20} strokeWidth={3} />, label: "Home" },
-    { to: "/database", icon: <Database size={20} strokeWidth={3} />, label: "Data" },
+    { to: "/HabitPage", icon: <Database size={20} strokeWidth={3} />, label: "heatMaps" },
     { to: "/notes", icon: <Text size={20} strokeWidth={3} />, label: "Notes" },
     { to: "/settings", icon: <Settings size={20} strokeWidth={3} />, label: "Settings" },
   ];
